@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="JWPlayerOLD\JW Player Embedding and JavaScript Guide.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,6 +76,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JWPlayerOLD\dangdang-Source.swf" />
+    <Content Include="JWPlayerOLD\index.html" />
+    <Content Include="JWPlayerOLD\jwplayer.js" />
+    <Content Include="JWPlayerOLD\license.txt" />
+    <Content Include="JWPlayerOLD\player.swf" />
+    <Content Include="JWPlayerOLD\preview.jpg" />
+    <Content Include="JWPlayerOLD\readme.html" />
+    <Content Include="JWPlayerOLD\swfobject.js" />
+    <Content Include="JWPlayerOLD\video.mp4" />
+    <Content Include="JWPlayerOLD\yt.swf" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

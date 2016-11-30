@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    <script src="jwplayer.js"></script>
+
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    
+    <!--<p id="container1">Content Player</p>
+    
+    <script type="text/javascript">
+
+        var flashvars = { file: "http://14.139.40.250/vod/IGNOU/Anthropology/Anthropology_Tribes_and_Gender.mp4", autostart: "true", skin: "dangdang-Source.swf" };
+    
+        var params = { allowfullscreen:"true", allowscriptaccess:"always" };
+
+        var attributes = { id:"player1", name:"player1" };
+
+        swfobject.embedSWF("player.swf","container1","480","270","9.0.115","false",flashvars, params, attributes);
+    </script>-->
+
+
+
+
+    <div id="container">Loading the player ...</div>
+    <script type="text/javascript">
+jwplayer("container").setup({
+flashplayer: "player.swf",
+file: "http://14.139.40.250/vod/IGNOU/Anthropology/Anthropology_Tribes_and_Gender.mp4",
+height: 270,
+width: 480,
+skin: "dangdang-Source.swf"
+});
+    </script>
+
+</body>
+</html>
